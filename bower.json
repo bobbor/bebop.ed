@@ -1,0 +1,30 @@
+{
+  "name": "bebop.ed",
+  "main": "ed.js",
+  "version": "1.0.0",
+  "authors": [
+    "Philipp Paul <me@philipp-paul.com>"
+  ],
+  "description": "bootstrapping backbone views, which have been defined via html-attributes",
+  "moduleType": [
+    "amd",
+    "mvc"
+  ],
+  "keywords": [
+    "backbone",
+    "bootstrapping",
+    "bebop"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "^1.2.1",
+    "bebop": "https://github.com/bobbor/bebop.git#79039bb4c1"
+  }
+}
